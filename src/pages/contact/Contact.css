@@ -15,6 +15,12 @@
 }
 .contact-venue {
     padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+.contact-dateAndTime {
+    padding-top: 1rem;
     display: flex;
     column-gap: 30px;
     font-size: 1rem;

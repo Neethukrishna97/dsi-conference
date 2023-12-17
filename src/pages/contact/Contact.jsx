@@ -10,7 +10,9 @@ const Contact = () => {
       <div className='contact'>
         <h4 className="contact-title">{data.contact.title}</h4>
         <h2 className='contact-location'>{data.contact.location}</h2>
-        <div className='contact-venue'>
+        <h4 className='contact-venue'>{data.contact.contactInfo.venue}</h4>
+
+        <div className='contact-dateAndTime'>
           <h4>{data.contact.contactInfo.date}</h4>
           <h4>{data.contact.contactInfo.time}</h4>
         </div>

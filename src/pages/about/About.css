@@ -1,6 +1,5 @@
 
 
-
 .about {
   position: relative;
   height: 100%;
@@ -20,6 +19,10 @@
   font-weight: 700;
   color:var(--text-color);
   text-align: center;
+}
+.about-content-sub{
+  padding: 1rem 4rem;
+  font-size: 20px;
 }
 .about-contents {
   padding: 4rem 2rem;
@@ -82,6 +85,10 @@
   .about-title {
     font-size: 1.5rem;
     font-weight: 600;
+  }
+  .about-content-sub{
+    
+    font-size: 16px;
   }
   .about-contents {
     padding: 1rem;
