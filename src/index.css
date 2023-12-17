@@ -1,0 +1,22 @@
+:root {
+  --primary-color: rgb(24, 24, 66); ;
+  --secondary-color:gray;
+  --text-color: rgb(21, 21, 83);
+  --nav-item-color:rgb(172, 198, 211);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.html{
+  box-sizing: border-box;
+
+}
+*{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+
+}

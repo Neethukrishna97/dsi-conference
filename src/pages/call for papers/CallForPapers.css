@@ -1,0 +1,35 @@
+.paper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.paper-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: white;
+    padding: 1em;
+}
+.paper-details{
+
+}
+.paper-submit{
+    padding: .7rem 1rem;
+    background-color: rgb(223, 215, 215);
+    border: none;
+    border-radius: 1px;
+    color: var(--text-color);
+    font-size:medium;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 350ms;
+
+}
+.paper-submit:hover{
+    transform: scale(.955);
+    background-color: rgb(160, 155, 155);
+}

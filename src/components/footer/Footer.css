@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: var(--primary-color);
+    color:rgb(224, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-icons{
+    width: 60%;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-icon{
+    color:rgb(224, 218, 218);
+    transition: all 300ms;
+}
+.footer-icon:hover{
+    transform: scale(1.5);
+}
+.footer-copyrights{
+    font-size: 12px;
+    font-weight: 500;
+}

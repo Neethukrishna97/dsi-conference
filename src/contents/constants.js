@@ -1,0 +1,1 @@
+ export const loginUrl="https://easychair.org/account/signin?l=HZ0ND5GIkZCsacRekPkrBU"

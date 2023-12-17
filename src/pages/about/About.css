@@ -1,0 +1,103 @@
+
+
+
+.about {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.about > span {
+  color:var(--secondary-color) ;
+  font-weight: 600;
+  font-size: large;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color:var(--text-color);
+  text-align: center;
+}
+.about-contents {
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.about-content {
+  position: relative;
+  width: 380px;
+  max-width: 400px;
+}
+
+.about-content img {
+  height:100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+.about-description {
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 10;
+}
+.about-description > h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.about-description > h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.about-image-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+.about-image-overlay:hover {
+  opacity: 0;
+}
+.proceedings-heading{
+  font-size: 40px;
+  color: var(--text-color);
+}
+
+@media (max-width: 640px) {
+  .about-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .about-contents {
+    padding: 1rem;
+  }
+  .about-content {
+    width: 240px;
+  }
+  .about-description > h4 {
+    font-size: 0.6rem;
+    font-weight: 300;
+  }
+  .about-description > h2 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .about-quates{
+    font-size:.5rem;
+  }
+}

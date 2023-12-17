@@ -1,0 +1,10 @@
+
+.layout-banner{
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: fixed;
+height: 400px;
+}
+
