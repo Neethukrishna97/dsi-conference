@@ -6,7 +6,7 @@ const Shedule = () => {
   return (
     <>
     <Layout/>
-    <h2 className="shedule-title">Shedule</h2>
+    <h2 className="shedule-title">SHEDULE</h2>
     <div className="shedule">
        
     </div>

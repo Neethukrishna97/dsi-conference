@@ -38,7 +38,7 @@ const NavBar = ({ background }) => {
       </div>
       <ul className={`nav-items  ${isOpen ? "open" : ""}`}>
         <Link className="link-style" to="/"><li className="nav-item">HOME</li></Link>
-        <Link className="link-style" to="/call for papers">
+        <Link className="link-style" to="/call-for-papers">
           <li className="nav-item nav-papers">
           CALL FOR PAPERS
           <RiArrowDropDownLine size={25}/>

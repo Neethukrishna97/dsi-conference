@@ -12,7 +12,7 @@ const Banner = () => {
       <div className="banner-contents">
         <span className="banner-date">{data.banner.bannerDate}</span>
         <h2>{data.banner.bannerTitle}</h2>
-       <Link to='/call for papers'> <button className="banner-button">{data.banner.bannerSubmit}</button></Link>
+       <Link to='/call-for-papers'> <button className="banner-button">{data.banner.bannerSubmit}</button></Link>
       </div>
     </div>
   );

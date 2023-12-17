@@ -7,7 +7,7 @@ const Speakers = () => {
   return (
     <>
     <Layout/>
-    <h2 className="speakers-title">Speakers</h2>
+    <h2 className="speakers-title">SPEAKERS</h2>
      <div className="speakers">
         
      </div>

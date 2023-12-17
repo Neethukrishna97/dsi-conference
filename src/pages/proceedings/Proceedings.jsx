@@ -7,7 +7,7 @@ const Proceedings= () => {
   return (
     <>
       <Layout/>
-      <h2 className="proceedings-title">Proceedings</h2>
+      <h2 className="proceedings-title">PROCEEDINGS</h2>
       <div className="proceedings">
         
       </div>

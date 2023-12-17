@@ -7,13 +7,13 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="footer-icons">
-                <a href="https://www.facebook.com/yourpage">
+                <a href="https://www.facebook.com/HalmstadUniversity">
                     <FontAwesomeIcon className='footer-icon' icon={faFacebook} />
                 </a>
-                <a href="https://www.instagram.com/yourpage">
+                <a href="https://www.instagram.com/hogskolanihalmstad/">
                     <FontAwesomeIcon className='footer-icon' icon={faInstagram} />
                 </a>
-                <a href="https://www.linkedin.com/yourpage">
+                <a href="https://www.linkedin.com/school/h%C3%B6gskolan-i-halmstad/">
                     <FontAwesomeIcon className='footer-icon' icon={faLinkedin} />
                 </a>
             </div>

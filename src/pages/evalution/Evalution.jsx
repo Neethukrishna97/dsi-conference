@@ -7,7 +7,7 @@ const Evalution = () => {
   return (
     <>
         <Layout/>
-        <h2 className="evalution-title">Evalution</h2>
+        <h2 className="evalution-title">EVALUTION</h2>
         <div className="evalution">
           
         </div>

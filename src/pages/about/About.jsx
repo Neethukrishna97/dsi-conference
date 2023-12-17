@@ -13,6 +13,16 @@ import CoverPoster from "../../components/coverPoster/CoverPoster";
 const About = () => {
   const imageContent = [
     {
+      title: "Get New Insights",
+      image: content3,
+      description: `${data.about.aboutContentDescription.GetNewInsights}`,
+    },
+    {
+      title: "Networking",
+      image: content5,
+      description: `${data.about.aboutContentDescription.Networking}`,
+    },
+    {
       title: "Goal",
       image: content1,
       description: `${data.about.aboutContentDescription.goal}`,
@@ -22,25 +32,17 @@ const About = () => {
       image: content2,
       description: `${data.about.aboutContentDescription.learn}`,
     },
+    
     {
-      title: "Discover",
-      image: content3,
-      description: `${data.about.aboutContentDescription.discover}`,
-    },
-    {
-      title: "Speakers",
+      title: "Great Speakers",
       image: content4,
       description: `${data.about.aboutContentDescription.speakers}`,
     },
+   
     {
-      title: "Plan",
-      image: content5,
-      description: `${data.about.aboutContentDescription.plan}`,
-    },
-    {
-      title: "Focus",
+      title: "Discover",
       image: content6,
-      description: `${data.about.aboutContentDescription.focus}`,
+      description: `${data.about.aboutContentDescription.discover}`,
     },
   ];
   return (
@@ -48,6 +50,7 @@ const About = () => {
       <div className="about">
         <span>JOIN US</span>
         <h1 className="about-title">{data.about.aboutTitle}</h1>
+        <h4 className="about-content-sub">{data.about.aboutContent}</h4>
         <div className="about-contents">
           {imageContent.map((content, index) => (
             <div className="about-content">

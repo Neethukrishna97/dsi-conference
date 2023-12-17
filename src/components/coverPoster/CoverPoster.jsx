@@ -20,9 +20,9 @@ const CoverPoster = () => {
 
     return (
         <>
-            <div style={{ backgroundImage: `url(${width >= 640 ? coverPoster : coverPosterSm})` }} className="cover-poster"></div>
-            <div className='cover-content'>
+            <div style={{ backgroundImage: `url(${width >= 640 ? coverPoster : coverPosterSm})` }} className="cover-poster">
             </div>
+            
         </>
     )
 }
