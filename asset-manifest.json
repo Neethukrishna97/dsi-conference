@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dsi-conference-site/static/css/main.d8038ee1.css",
+    "main.js": "/dsi-conference-site/static/js/main.436c4df6.js",
+    "static/media/banner.jpg": "/dsi-conference-site/static/media/banner.21c96fcd7517eb9e7c95.jpg",
+    "static/media/content6.jpg": "/dsi-conference-site/static/media/content6.d6aa1646147edd6c6d22.jpg",
+    "static/media/content3.jpg": "/dsi-conference-site/static/media/content3.0cf8757fd1e2d337ef13.jpg",
+    "static/media/content1.jpg": "/dsi-conference-site/static/media/content1.e0051cdb3060b4ff2e32.jpg",
+    "static/media/content4.jpg": "/dsi-conference-site/static/media/content4.c20e320f697d0a429ff5.jpg",
+    "static/media/poster2.jpg": "/dsi-conference-site/static/media/poster2.cf2110bdaf769a05a769.jpg",
+    "static/media/cover-sm.jpg": "/dsi-conference-site/static/media/cover-sm.c151bd56a58d252c5b8a.jpg",
+    "static/media/content2.jpg": "/dsi-conference-site/static/media/content2.cccf5ae1e9d4053f3ed1.jpg",
+    "static/media/content5.jpg": "/dsi-conference-site/static/media/content5.9d03b835d3943b8d85b3.jpg",
+    "static/media/cs7.jpg": "/dsi-conference-site/static/media/cs7.4d9bf4f2dbd3336108ea.jpg",
+    "static/media/logo.png": "/dsi-conference-site/static/media/logo.9284ed6ed8916f8cb3b8.png",
+    "index.html": "/dsi-conference-site/index.html",
+    "main.d8038ee1.css.map": "/dsi-conference-site/static/css/main.d8038ee1.css.map",
+    "main.436c4df6.js.map": "/dsi-conference-site/static/js/main.436c4df6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8038ee1.css",
+    "static/js/main.436c4df6.js"
+  ]
+}
