@@ -1,0 +1,13 @@
+.google-form{
+ 
+}
+.google-form-scroll{
+  overflow-y: hidden;
+
+}
+
+@media(max-width:642px){
+   .google-form-scroll{
+       width: 100%;
+   }
+}

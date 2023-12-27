@@ -2,7 +2,7 @@
 
 export default {
   banner: {
-    bannerTitle: "Welcome to the Sixth Conference on Digital Service Innovation (DSI2024)",
+    bannerTitle: "Digital Service Innovation Conference",
     bannerDate: "Friday 12th of January 2024",
     bannerSubmit: "SUBMIT YOUR PAPER",
   },
@@ -80,7 +80,7 @@ export default {
     paperHeading:"5th Annual Conference on Digital Service Innovation (DSI 2023) Halmstad, Sweden",
     represent:"Dear Colleagues:",
     paperDescription:`You are invited to submit a paper for inclusion in the 6th Conference on Digital Service Innovation (DSI 2024). The conference welcomes systematic literature reviews conducted in different tracks of Digital service innovation. The conference is organized by master students of Digital Service Innovation as a requisite for the course Academic Communication and Digital Service Innovation Research. 
-                      You can submit your paper here`
+                      You can submit your paper`
   }
 };
 

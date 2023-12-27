@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import logo from "../../assets/logo.png";
+import dsiLogo from "../../assets/dsi-logo-new.png";
+import Logo from "../../assets/halmstad-university.png";
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import {RiArrowDropDownLine} from 'react-icons/ri'
+import { RiArrowDropDownLine } from 'react-icons/ri'
+
 
 const NavBar = ({ background }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -25,9 +27,14 @@ const NavBar = ({ background }) => {
   };
   return (
     <nav style={{ background: `${show ? "rgb(24, 24, 66)" : background}` }}>
-      <Link to="/">
-        <img className="nav-logo" src={logo} alt="" />{" "}
-      </Link>
+      <div className="nav-logos">
+        <Link to="/">
+          <img className="nav-logo" src={Logo} alt="logo" />
+        </Link>
+        <Link to="/">
+          <img className="nav-dsi-logo" src={dsiLogo} alt="dsi-logo" />
+        </Link>
+      </div>
       <div
         className={`hamburger-menu ${isOpen ? "open" : ""}`}
         onClick={toggleMenu}
@@ -40,12 +47,12 @@ const NavBar = ({ background }) => {
         <Link className="link-style" to="/"><li className="nav-item">HOME</li></Link>
         <Link className="link-style" to="/call-for-papers">
           <li className="nav-item nav-papers">
-          CALL FOR PAPERS
-          <RiArrowDropDownLine size={25}/>
-          <div className="nav-dropdown">
-            <Link className="link-style" to='/proceedings'><span>proceedings</span></Link>
-          </div>
-        </li></Link>
+            CALL FOR PAPERS
+            <RiArrowDropDownLine size={25} />
+            <div className="nav-dropdown">
+              <Link className="link-style" to='/proceedings'><span>proceedings</span></Link>
+            </div>
+          </li></Link>
         <Link className="link-style" to="/track info"><li className="nav-item">TRACK INFO</li></Link>
         <Link className="link-style" to="/speakers"><li className="nav-item">SPEAKERS</li></Link>
         <Link className="link-style" to="/shedule"><li className="nav-item">SHEDULE</li></Link>
