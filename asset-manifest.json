@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dsi-conference/static/css/main.89dfdf7b.css",
+    "main.css": "/dsi-conference/static/css/main.d172ba0a.css",
     "main.js": "/dsi-conference/static/js/main.dc73d74c.js",
     "static/media/banner.jpg": "/dsi-conference/static/media/banner.21c96fcd7517eb9e7c95.jpg",
     "static/media/content6.jpg": "/dsi-conference/static/media/content6.d6aa1646147edd6c6d22.jpg",
@@ -15,11 +15,11 @@
     "static/media/dsi-logo-new.png": "/dsi-conference/static/media/dsi-logo-new.66bb6e12b4f5be29cf05.png",
     "static/media/halmstad-university.png": "/dsi-conference/static/media/halmstad-university.a1b63059ed33230f63de.png",
     "index.html": "/dsi-conference/index.html",
-    "main.89dfdf7b.css.map": "/dsi-conference/static/css/main.89dfdf7b.css.map",
+    "main.d172ba0a.css.map": "/dsi-conference/static/css/main.d172ba0a.css.map",
     "main.dc73d74c.js.map": "/dsi-conference/static/js/main.dc73d74c.js.map"
   },
   "entrypoints": [
-    "static/css/main.89dfdf7b.css",
+    "static/css/main.d172ba0a.css",
     "static/js/main.dc73d74c.js"
   ]
 }
