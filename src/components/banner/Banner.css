@@ -36,9 +36,10 @@
 }
 .banner-button{
     color: rgb(24, 24, 71);
+    font-family: 'Roboto',sans-serif;
     align-items: center;
-    font-size:1rem;
-    font-weight: 700;
+    font-size:.93rem;
+    font-weight: 800;
     padding: 1rem 2rem;
     border: none;
     cursor: pointer;
@@ -47,7 +48,8 @@
     transition: all 200ms;
 }
 .banner-button:hover{
-    background-color: rgb(169, 167, 167);
+    background-color: rgb(26, 103, 219);
+    color: white;
 }
 
 

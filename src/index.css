@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 :root {
   --primary-color: rgb(24, 24, 66); ;
   --secondary-color:gray;
-  --text-color: rgb(21, 21, 83);
+  --text-color:  #324273;
   --nav-item-color:rgb(172, 198, 211);
+  --font-color:#5A5A5A;
+  --font-family-contents:'Roboto', sans-serif;
+  --font-family-header:'Raleway', sans-serif
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .html{
   box-sizing: border-box;
@@ -17,6 +23,6 @@
   padding: 0;
 }
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }

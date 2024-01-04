@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../components/footer/Footer'
 import data from '../../contents/data'
 import './Contact.css'
 
@@ -15,6 +14,7 @@ const Contact = () => {
         <div className='contact-dateAndTime'>
           <h4>{data.contact.contactInfo.date}</h4>
           <h4>{data.contact.contactInfo.time}</h4>
+          <h4>{data.contact.contactInfo.direction}</h4>
         </div>
       </div>
     </>

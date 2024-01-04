@@ -1,53 +1,119 @@
-.paper{
+.paper {
     padding: 2rem;
     line-height: 1.6;
     color: gray;
-    text-align: center;  
+    text-align: center;
 }
 
-.paper-title{
+.paper-title {
     position: absolute;
-    top: 30%;
+    top: 200px;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 40px;
     color: white;
     padding: 1em;
 }
-.paper-details{
-  
+.paper-details {
+    margin-bottom: 3em;
 }
-.paper-heading{
+.paper-heading {
     color: #324273;
     font-size: 32px;
     font-weight: 800;
+    font-family: var(--font-family-header);
 }
-.paper-represent{
+.paper-represent {
     font-size: 24px;
     font-weight: 800;
     color: #1e73be;
     margin: 25px 0px;
 }
-.paper-content{
+.paper-content {
     margin-top: 30px;
-    font-size: .95rem;
-    font-weight: 500;
-    color: rgb(99, 95, 95);
-    align-self:flex-start;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--font-color);
+    align-self: flex-start;
+    font-family: "Roboto", "sans-serif";
 }
-.paper-submit{
-    padding: .7rem 1rem;
+
+.paper-date-authers {
+    margin: 3em 0;
+}
+.paper-date-authers > h3 {
+    font-family: var(--font-family-header);
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 800;
+}
+.paper-date-authers > h4 {
+    color: var(--font-color);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.paper-genaral-info {
+    margin: 2rem 0;
+}
+.paper-genaral-info > h3 {
+    font-family: var(--font-family-header);
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 800;
+}
+.paper-genaral-info > ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paper-genaral-info > ol > li {
+    color: var(--font-color);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.paper-submit {
+    align-self: center;
+    padding: 0.7rem 1rem;
     background-color: rgb(21, 116, 204);
     border: none;
     border-radius: 3px;
     color: white;
-    font-size:.7rem;
-    font-weight:600;
+    font-size: 0.7rem;
+    font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 350ms;
-
 }
-.paper-submit:hover{
-    transform: scale(.955);
+.paper-submit:hover {
+    transform: scale(0.955);
     background-color: rgb(8, 68, 136);
+}
+
+@media (max-width: 640px) {
+    .paper-title {
+        font-size: 30px;
+        padding: 0;
+    }
+    .paper-heading {
+        font-size:26px;
+        font-weight: 700;
+    }
+    .paper-date-authers > h3 {
+        font-size:1.5rem;
+        font-weight: 600;
+    }
+    .paper-date-authers > h4 {
+        color: var(--font-color);
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    .paper-genaral-info {
+        margin: 2rem 0;
+    }
+    .paper-genaral-info > h3 {
+        font-size:1.5rem;
+        font-weight: 600;
+    }
 }

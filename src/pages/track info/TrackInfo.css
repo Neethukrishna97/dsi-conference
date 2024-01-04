@@ -1,6 +1,6 @@
 .trackinfo-title{
     position: absolute;
-    top: 20%;
+    top: 200px;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 40px;
@@ -32,9 +32,20 @@
     margin: 25px 0px;
 }
 .trackinfo-content{
+    font-family: var(--font-family-contents);
     margin-top: 30px;
-    font-size: .95rem;
-    font-weight: 500;
-    color: rgb(99, 95, 95);
+    font-size: 16px;
+    font-weight: 300;
+    color:var(--font-color);
     align-self:flex-start;
+}
+@media(max-width:640px){
+    .trackinfo-title{
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .trackinfo-heading{
+       font-size: 29px;
+    }
 }
