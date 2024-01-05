@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/dsi-conference/static/css/main.ca2551c1.css",
-    "main.js": "/dsi-conference/static/js/main.9752f680.js",
+    "main.css": "/dsi-conference/static/css/main.8dbf648b.css",
+    "main.js": "/dsi-conference/static/js/main.0dbff8f2.js",
     "static/media/Syama Sivasankarapillai.jpg": "/dsi-conference/static/media/Syama Sivasankarapillai.bb61a14c8309975c14ec.jpg",
     "static/media/Archa Prasannan.jpg": "/dsi-conference/static/media/Archa Prasannan.cf03853274edf2b8bd36.jpg",
-    "static/media/Edward Nylén.HEIC": "/dsi-conference/static/media/Edward Nylén.4330c19ba97737105e59.HEIC",
+    "static/media/Rosemary Palliparambil Johny.jpg": "/dsi-conference/static/media/Rosemary Palliparambil Johny.5e94a91da9a8347aafc2.jpg",
+    "static/media/Edvard Nylen.JPG": "/dsi-conference/static/media/Edvard Nylen.0c14870ea8149f7b867c.JPG",
     "static/media/banner.jpg": "/dsi-conference/static/media/banner.21c96fcd7517eb9e7c95.jpg",
     "static/media/Jayitha Ottakath.jpg": "/dsi-conference/static/media/Jayitha Ottakath.d200a38300e68061c491.jpg",
     "static/media/content6.jpg": "/dsi-conference/static/media/content6.d6aa1646147edd6c6d22.jpg",
@@ -19,15 +20,16 @@
     "static/media/Cynthia Jon-Olawuyi.png": "/dsi-conference/static/media/Cynthia Jon-Olawuyi.f4d0173b7d7ff1f28c8c.png",
     "static/media/content5.jpg": "/dsi-conference/static/media/content5.9d03b835d3943b8d85b3.jpg",
     "static/media/Meera Madhu.jpg": "/dsi-conference/static/media/Meera Madhu.0f7c83fc3388f42c9563.jpg",
+    "static/media/Sebastian Persson.jpg": "/dsi-conference/static/media/Sebastian Persson.f4a5dc31e7b5c65ec855.jpg",
     "static/media/Gifty Johnson.png": "/dsi-conference/static/media/Gifty Johnson.2c852c11dac293e1fd77.png",
     "static/media/cs7.jpg": "/dsi-conference/static/media/cs7.4d9bf4f2dbd3336108ea.jpg",
-    "static/media/Rosemary Palliparambil Johny.jpg": "/dsi-conference/static/media/Rosemary Palliparambil Johny.df84fff99766cb2fcd3a.jpg",
     "static/media/dsi-logo-new.png": "/dsi-conference/static/media/dsi-logo-new.66bb6e12b4f5be29cf05.png",
     "static/media/Akhila Suresh Babu Nair.jpg": "/dsi-conference/static/media/Akhila Suresh Babu Nair.287c8fdb17a3de97ec04.jpg",
     "static/media/Jilna George.jpg": "/dsi-conference/static/media/Jilna George.c6f0f1c9637f393bc46c.jpg",
     "static/media/Anupriya Xavier_.jpg": "/dsi-conference/static/media/Anupriya Xavier_.652753191c8cbcf34b38.jpg",
     "static/media/Hanish Azhakanthara Hari.jpg": "/dsi-conference/static/media/Hanish Azhakanthara Hari.1070199562363a682f86.jpg",
     "static/media/Batoul Hammoud.jpg": "/dsi-conference/static/media/Batoul Hammoud.6e44d83f4753797788a7.jpg",
+    "static/media/Rousitamu Aihetamu .jpg": "/dsi-conference/static/media/Rousitamu Aihetamu .75abd74d6e74ba315cf4.jpg",
     "static/media/Rahul Thazhathuvalappil Murali.jpeg": "/dsi-conference/static/media/Rahul Thazhathuvalappil Murali.8ac8f33e4ed90543bc55.jpeg",
     "static/media/Anu Thomas .jpg": "/dsi-conference/static/media/Anu Thomas .e8b84520a4be158fad3b.jpg",
     "static/media/Amir zadeh.jpg": "/dsi-conference/static/media/Amir zadeh.d634f90b0927360975bf.jpg",
@@ -41,11 +43,11 @@
     "static/media/Nikhil Thampan.jpg": "/dsi-conference/static/media/Nikhil Thampan.848945e68b9df8a8874f.jpg",
     "static/media/Eric Dutt.jpg": "/dsi-conference/static/media/Eric Dutt.4288cbc71a375d537698.jpg",
     "index.html": "/dsi-conference/index.html",
-    "main.ca2551c1.css.map": "/dsi-conference/static/css/main.ca2551c1.css.map",
-    "main.9752f680.js.map": "/dsi-conference/static/js/main.9752f680.js.map"
+    "main.8dbf648b.css.map": "/dsi-conference/static/css/main.8dbf648b.css.map",
+    "main.0dbff8f2.js.map": "/dsi-conference/static/js/main.0dbff8f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca2551c1.css",
-    "static/js/main.9752f680.js"
+    "static/css/main.8dbf648b.css",
+    "static/js/main.0dbff8f2.js"
   ]
 }
