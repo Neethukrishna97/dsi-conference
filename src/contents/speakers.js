@@ -1,7 +1,7 @@
 import image1 from '../assets/Speakers/Ahmad Ghazawneh.jpg'
 import image2 from '../assets/Speakers/Amir zadeh.jpg'
 import image4 from '../assets/Speakers/Eric Dutt.jpg'
-import image3 from '../assets/Speakers/Jonas Sjöström.png'
+import image3 from '../assets/Speakers/Jonas.png'
 export default [
    {
    name:"Ahmad Ghazawneh",
@@ -24,4 +24,5 @@ export default [
      image:image4
    }
 ]
+
 

@@ -3,19 +3,21 @@
     height: 100%;
 }
 .banner-image{
+    display: block;
+    object-position: center;
+    object-fit: cover;
+    border-radius:3px;
+    height: 100vh;
     width: 100%;
-    height:100vh ;
     background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
 }
 .banner-overlay{
     background-color:rgba(0, 0, 0, 0.6);
     position: absolute;
     left: 0;
     top: 0;
-    bottom: 0;
-    right: 0;
+    height:100%;
+    width: 100%;
 }
 .banner-date{
     color: aliceblue;
@@ -51,7 +53,19 @@
     background-color: rgb(26, 103, 219);
     color: white;
 }
-
+.blur-load-banner{
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+  }
+  .blur-load-banner.loaded > img{
+  opacity: 1;
+  }
+  
+  .blur-load-banner > img{
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
 
 @media (max-width:640px){
 
@@ -68,4 +82,35 @@
     .banner-date{
         font-size: .8rem;
     }
+}
+
+@media(min-width:1500px){
+    .banner-contents{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        color: white;
+    }
+    
+    .banner-contents > h2{
+        max-width: 100%;
+        font-size: 60px;
+        font-weight: 600;
+        margin-bottom:3rem;
+    }
+    .banner-button{
+        font-size:24px;
+        font-weight: 800;
+        padding: 2rem 3rem;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(219, 213, 213);
+        border-radius: 3px;
+        transition: all 200ms;
+    }  
+    .banner-date{
+        color: aliceblue;
+        font-size:24px;
+    }
+ 
 }

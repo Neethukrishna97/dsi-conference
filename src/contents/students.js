@@ -6,7 +6,7 @@ import student5 from '../assets/Speakers/Sreelekshmi Balakrishna Pillai.jpg'
 import student6 from '../assets/Speakers/Jayitha Ottakath.jpg'
 import student7 from '../assets/Speakers/Ruddy Jinto_.jpg'
 import student8 from '../assets/Speakers/Neethukrishna Jayakumar Bindhu.jpg'
-import student9 from '../assets/Speakers/Anu Thomas .jpg'
+import student9 from '../assets/Speakers/Anu Thomas.jpg'
 import student10 from '../assets/Speakers/Archa Prasannan.jpg'
 import student11 from '../assets/Speakers/Meera Madhu.jpg'
 import student12 from '../assets/Speakers/Rahul Thazhathuvalappil Murali.jpeg'
@@ -21,7 +21,7 @@ import student20 from '../assets/Speakers/Akhila Suresh Babu Nair.jpg'
 import student21 from '../assets/Speakers/Syama Sivasankarapillai.jpg'
 import student22 from '../assets/Speakers/Deepamol Manathrakadavil Balachandran.jpg'
 import student02 from '../assets/Speakers/Sebastian Persson.jpg'
-import student012 from '../assets/Speakers/Rousitamu Aihetamu .jpg'
+import student012 from '../assets/Speakers/Rousitamu Aihetamu.jpg'
 
 
 
@@ -50,7 +50,7 @@ export default [
      image:student3
    },
    {
-     name:'Jilona George',
+     name:'Jilna George',
      role:'Student',
      image:student4
    },

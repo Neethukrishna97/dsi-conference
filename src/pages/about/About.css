@@ -44,11 +44,14 @@
 }
 
 .about-content img {
-  height:100%;
   width: 100%;
-  object-fit: contain;
-  border-radius: 3px;
+  height: 100%;
+  display: block;
+  object-position: center;
+  object-fit: cover;
+  border-radius:3px;
 }
+
 
 .about-description {
   position: absolute;
@@ -68,12 +71,12 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.about-image-overlay {
+.about-image-overlay { 
   position: absolute;
   left: 0;
-  right: 0;
   top: 0;
-  bottom: 0;
+  height: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 3px;
   opacity: 1;
@@ -86,6 +89,8 @@
   font-size: 40px;
   color: var(--text-color);
 }
+
+
 
 @media (max-width: 640px) {
   .about-title {

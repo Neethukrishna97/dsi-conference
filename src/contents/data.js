@@ -2,7 +2,7 @@
 
 export default {
   banner: {
-    bannerTitle: "Digital Service Innovation Conference",
+    bannerTitle: "Annual DSI Conference 2024",
     bannerDate: "Friday 12th of January 2024",
     bannerSubmit: "SUBMIT YOUR PAPER",
   },

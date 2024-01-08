@@ -55,7 +55,7 @@ const NavBar = ({ background }) => {
           </li></Link>
         <Link className="link-style" to="/track info"><li className="nav-item">TRACK INFO</li></Link>
         <Link className="link-style" to="/speakers"><li className="nav-item">SPEAKERS</li></Link>
-        <Link className="link-style" to="/shedule"><li className="nav-item">SHEDULE</li></Link>
+        <Link className="link-style" to="/schedule"><li className="nav-item">SCHEDULE</li></Link>
         <Link className="link-style" to="/evalution"><li className="nav-item">EVALUTION</li></Link>
       </ul>
     </nav>

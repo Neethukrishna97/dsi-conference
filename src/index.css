@@ -17,7 +17,7 @@
   box-sizing: border-box;
 
 }
-*{
+*,::after,::before{
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -25,4 +25,18 @@
 body{
   font-family: 'Roboto', sans-serif;
 
+}
+
+.blur-load{
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+}
+.blur-load.loaded > img{
+opacity: 1;
+}
+
+.blur-load > img{
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
 }
