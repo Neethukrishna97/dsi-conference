@@ -88,14 +88,14 @@ export default {
     importantDatesForAuthorsTitle: 'Important Dates for authors',
     importantDatesForAuthorsContents:
     {
-      conferenceDate: 'Conference Date: 12 January, Friday 10:00 - 16:00',
+      conferenceDate: 'Conference Date: 12 January, Friday 10:00 - 14:00',
       FinalArticleSubmissionToTheSystem: 'Final article submission to the system: Monday 08 January by 23:59',
       ArticleReviewDeadline: 'Article Review Deadline: Wednesday 10 Jan by 23:59'
     },
     GeneralSubmissionInformation:
     {
       GeneralSubmissionInformationTitle: 'General Submission Information:',
-      GeneralSubmissionInformation1: 'All submissions must be made through the EasyChair submission system. Submit',
+      GeneralSubmissionInformation1: 'All submissions must be made through the EasyChair submission system.',
       GeneralSubmissionInformation2: 'All submissions must follow the research template uploaded on blackboard',
       GeneralSubmissionInformation3: 'All submissions should be a maximum of 7 pages (excluding abstract, references and keywords)',
       GeneralSubmissionInformation4: 'All authors should ensure that their abstract is a maximum of 200 words and their submission has at least 3 keywords.',
